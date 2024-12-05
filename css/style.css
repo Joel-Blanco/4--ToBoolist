@@ -21,11 +21,19 @@ button {
     border-radius: 5px;
 }
 
-ol { list-style-type:"\25BE";}
+ol {
+    list-style-type:"\25BE";
+    font-size: 19px;
+}
+
+ul {
+    list-style:none;
+}
 
 li p {
     display: inline;
     padding: 0 4px;
+    font-size: 16px;
 }
 
 .logo-section {
@@ -42,10 +50,15 @@ li p {
 
 .to-do-list {
     background-color: #ffffff;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    height: 700px;
+    color: #434851;
+    font-family: "Roboto", serif;
+    height: 550px;
     border-top: solid 5px #f6f8f9;
     padding:30px 60px;
+}
+
+.items{
+    line-height: 38px;
 }
 .selected-button {
     background-color: #14aaf5;
@@ -61,13 +74,25 @@ li p {
     color: #2cc6ab;
     border: solid 1px #2cc6ab;
     border-radius: 50%;
-    width: 16px;
-    height:16px;
+    width: 18px;
+    height:18px;
     text-align: center;
-    line-height: 14 px; 
+    line-height: 18px; 
 }
 
-.blue-tag{
+.cross{
+    display: inline-block;
+    font-size: 10px;
+    color: #ff1010;
+    border: solid 1px #ff1010;
+    border-radius: 50%;
+    width: 18px;
+    height:18px;
+    text-align: center;
+    line-height: 15px;
+}
+
+.editorial-tag{
     background-color: #09a9ed;
     color: #ffffff;
     font-size: 10px;
