@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f6f8f9;
+}
+
+main {
+    margin: 50px auto;
+    width: 1800px;
+}
+
+button{
+    background: none;
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+.logo-section{
+    background-color: #ffffff;
+    height: 75px;
+    padding: 10px 20px;
+}
+
+.taskbar{
+    background-color: #ffffff;
+    height: 65px;
+    border-radius: 15px 15px 0 0;
+    padding: 10px 80px 5px 80px;
+}
+
+.to-do-list{
+    background-color: #ffffff;
+    height: 700px;
+    border-top: solid 5px #f6f8f9;
+}
