@@ -99,3 +99,43 @@ li p {
     border-radius: 25px;
     padding: 5px 10px;
 }
+
+.goals-tag{
+    background-color: #ab5de6;
+    color: #ffffff;
+    font-size: 10px;
+    border-radius: 25px;
+    padding: 5px 10px;
+}
+
+.recruiting-tag{
+    background-color: #2cc6ab;
+    color: #ffffff;
+    font-size: 10px;
+    border-radius: 25px;
+    padding: 5px 10px;
+}
+
+.mobile-tag{
+    background-color: #ff9b00;
+    color: #ffffff;
+    font-size: 10px;
+    border-radius: 25px;
+    padding: 5px 10px;
+}
+
+.website-tag{
+    background-color: #ec4a9d;
+    color: #ffffff;
+    font-size: 10px;
+    border-radius: 25px;
+    padding: 5px 10px;
+}
+
+.sales-tag{
+    background-color: #a3d116;
+    color: #ffffff;
+    font-size: 10px;
+    border-radius: 25px;
+    padding: 5px 10px;
+}
