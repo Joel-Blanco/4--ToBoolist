@@ -9,19 +9,31 @@
 </head>
 
 <body>
+    <!-- LOGO SECTION -->
     <header>
         <div class="logo-section">
             <img src="./img/Toboolist-logo.jpg" alt="toboolist logo">
         </div>
     </header>
     <main>
+        <!-- TASKBAR & BUTTONS -->
         <div class="taskbar">
             <button class="selected-button">
                 Add Task
             </button>
-            <button>Add Section</button>
+            <button class="unselected-button">Add Section</button>
         </div>
-        <div class="to-do-list"></div>
+        <!-- LIST & TAGS-->
+        <div class="to-do-list">
+            <ol>
+                <li>New Task
+                    <ul><span class="check">&#10003</span>
+                        <p>Quarterly Newsletter</p>
+                        <span class="blue-tag">Editorial</span>
+                    </ul>
+                </li>
+            </ol>
+        </div>
     </main>
 </body>
 

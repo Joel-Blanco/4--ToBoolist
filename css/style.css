@@ -1,39 +1,76 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
-    background-color: #f6f8f9;
-}
+body {
+    background-color: #f6f8f9;}
 
 main {
     margin: 50px auto;
     width: 1800px;
 }
-
-button{
+/*Resetting Button Style*/
+button {
     background: none;
     border: none;
     outline: none;
     box-shadow: none;
+    padding: 6px 12px;
+    border-radius: 5px;
 }
-.logo-section{
+
+ol { list-style-type:"\25BE";}
+
+li p {
+    display: inline;
+    padding: 0 4px;
+}
+
+.logo-section {
     background-color: #ffffff;
     height: 75px;
-    padding: 10px 20px;
+    padding: 12px 25px;
 }
 
-.taskbar{
+.taskbar {
     background-color: #ffffff;
-    height: 65px;
     border-radius: 15px 15px 0 0;
-    padding: 10px 80px 5px 80px;
+    padding: 15px 60px 8px 60px;
 }
 
-.to-do-list{
+.to-do-list {
     background-color: #ffffff;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
     height: 700px;
     border-top: solid 5px #f6f8f9;
+    padding:30px 60px;
+}
+.selected-button {
+    background-color: #14aaf5;
+}
+
+.unselected-button {
+    border: solid 1px #c4cbd0;
+}
+
+.check{
+    display: inline-block;
+    font-size: 10px;
+    color: #2cc6ab;
+    border: solid 1px #2cc6ab;
+    border-radius: 50%;
+    width: 16px;
+    height:16px;
+    text-align: center;
+    line-height: 14 px; 
+}
+
+.blue-tag{
+    background-color: #09a9ed;
+    color: #ffffff;
+    font-size: 10px;
+    border-radius: 25px;
+    padding: 5px 10px;
 }
